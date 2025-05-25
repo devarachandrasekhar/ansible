@@ -1,5 +1,5 @@
 - name: Prcatice print something in yaml
-  hosts: mongodd
+  hosts: mongodb
 
   vars:
     COURS: DEVOPS
