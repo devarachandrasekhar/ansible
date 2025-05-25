@@ -1,0 +1,13 @@
+- name: Prcatice print something in yaml
+  hosts: mongodd
+
+  vars:
+    COURS: DEVOPS
+    TRAINER: SHIVA
+  tasks:
+  - name: print something 
+    ansible.builtin.debug:
+    msg: "Hello I am devara chandrasekhar"
+  - name: print something 
+    ansible.builtin.debug:
+    msg: "I am devara learing {{COURS}} with trainer {{TRAINER}} "   
