@@ -3,10 +3,10 @@
   vars_prompt:
   - name: USERNAME
     prompt:   please enter username
-    private: no
+    private: no  # it does not prompt the values
   - name: PASSWORD
     prompt: please enter password
-    private: yes
+    private: yes #it prompt the values
 
   tasks:
   - name:  printin the values

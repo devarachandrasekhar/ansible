@@ -1,0 +1,16 @@
+- name: taks level varaibles can override the playlevel variables
+  hosts: localhost
+  vars:
+    LAND: 100acrs
+    CASH: 1000cr
+
+  tasks:
+  - name: over ride the paly level varibles
+    vars:
+      LAND: 100acrs
+      CASH: 100000cr
+  - name: print varaibles
+    ansible.builtin.debug:
+      msg: "{{LAND}} , {{CASH}}"
+
+
