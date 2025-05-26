@@ -6,6 +6,11 @@
   - name: vaibles files
     ansible.builtin.debug:
       msg: "I am  {{NAME}} {{AGE}} ,{{VILLAGE}}"
+  - name: variables
+    vars:
+    ansible.builtin.debug:
+      msg: "Task level variables"  
+              
 
 
 
