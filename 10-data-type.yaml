@@ -1,5 +1,5 @@
 - name: practice ansible  data types
-  hosts: localhosts
+  hosts: localhost
 
   vars:
   - NAME: "devara" #string
