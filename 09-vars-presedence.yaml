@@ -12,8 +12,8 @@
 
   tasks:
   - name: task levell varaibles
-    vars:
-      NAME: chandu-tasklevell
+    #vars:
+    #  NAME: chandu-tasklevell
     ansible.builtin.debug:
       msg: "Traner name is {{NAME}}"  
 
