@@ -2,8 +2,8 @@
   hosts: mongodb
   tasks:
   - name: check the roboshop user exit or not
-    ansible.builtin.command: null
-    rigister: out
+    ansible.builtin.command: id roboshop
+    register: out
     ignore_errors: true
   - name: print the command output
     ansible.builtin.debug:
