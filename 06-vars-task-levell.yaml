@@ -10,7 +10,7 @@
     - LAND: 1acrs
       CASH: 1cr
     ansible.builtin.debug:
-      msg: "{{LAND}} , {{CASH}}"  
+      msg: "{{LAND}} , {{CASH}}"  # here we are printing over ride values and this only print in this task only , it cant not over ride the next task 
   - name: print varaibles
     ansible.builtin.debug:
       msg: "{{LAND}} , {{CASH}}"

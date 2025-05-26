@@ -1,0 +1,7 @@
+- name: refering the varibles form inventory file 
+  hosts: mongodb
+
+  tasks:
+  - name: inventory varibles
+    ansible.builtin.debug:
+      msg: "mongodb username: {{USERNAME}} , password: {{PASSWORD}}"

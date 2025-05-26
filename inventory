@@ -6,3 +6,16 @@
 [mongodb]
 
 roboshop_us_dev_db_mongodb.practicedevops.store
+USERNAME=ec2-user
+PASSWORD=DevOps321
+
+
+[cart]
+
+roboshop_us_dev_db_cart.practicedevops.store
+
+
+[user]
+
+roboshop_us_dev_db_user.practicedevops.store
+
