@@ -1,7 +1,7 @@
 - name: keeping all variables at one place and refering it 
   hosts: localhost
   vars_files:
-  - variable.yml
+  - variables.yml
   tasks:
   - name: vaibles files
     ansible.builtin.debug:
