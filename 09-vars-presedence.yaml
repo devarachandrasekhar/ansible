@@ -17,4 +17,10 @@
     ansible.builtin.debug:
       msg: "Traner name is {{NAME}}"  
 
-
+ # 1. first preference is command line args variables
+   # 2. second presedence is task variables  
+   # 3. 3rd precedense is file variables
+   #4. prompt variables
+   #5.play levell variable
+   #6 . invontary variables
+   #7. Roles variables

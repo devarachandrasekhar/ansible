@@ -1,0 +1,42 @@
+- name: practice ansible  data types
+  hosts: localhosts
+
+  vars:
+  - NAME: "devara" #string
+  - AGE: 25 #number
+  - isgoodbye: true #boolen
+  - skills: #list
+    - linux
+    - shell
+    - ansible
+    - docker
+    - terraform  
+  - experience: #map
+      terraform: 3
+      shell: 3
+      docker: 3
+  tasks:
+  - name: print string values
+    ansible.builtin.debug:
+      msg: "{{NAME}}"     
+
+  - name: print number values
+    ansible.builtin.debug:
+      msg: "{{AGE}}"      
+
+  - name: print boolen values
+    ansible.builtin.debug:
+      msg: "{{isgoodbye}}"
+
+  - name: print boolen values
+    ansible.builtin.debug:
+      msg: "{{skills}}"
+
+  - name: print boolen values
+    ansible.builtin.debug:
+      msg: "{{experience}}"
+
+  - name: print boolen values
+    ansible.builtin.debug:
+      msg: "{{experience.shell}}"    
+                          
