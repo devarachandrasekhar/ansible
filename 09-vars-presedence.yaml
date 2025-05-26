@@ -5,10 +5,10 @@
     NAME: chandu-playlevell
   vars_files:
   - variables.yaml
-  vars_prompt:
-  - name: NAME
-    prompt: please enter name
-    private: yes
+  #vars_prompt:
+  #- name: NAME
+  #  prompt: please enter name
+  #  private: yes
 
   tasks:
   - name: task levell varaibles
