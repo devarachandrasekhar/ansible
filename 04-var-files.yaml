@@ -1,0 +1,11 @@
+- name: keeping all variables at one place and refering it 
+  hosts: localhost
+  vars_files:
+  - variable.yml
+  tasks:
+  - name: vaibles files
+    ansible.builtin.debug:
+      msg: "I am  {{NAME}} {{AGE}} ,{{VILLAGE}}""
+
+
+
