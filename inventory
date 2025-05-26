@@ -9,6 +9,7 @@ roboshop_us_dev_db_mongodb.practicedevops.store
 [mongodb:vars]
 USERNAME=ec2-user
 PASSWORD=DevOps321
+NAME=chandra-inventory
 
 
 [cart]
