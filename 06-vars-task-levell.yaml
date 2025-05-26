@@ -1,7 +1,7 @@
 - name: taks level varaibles can override the playlevel variables
   hosts: localhost
   vars:
-    LAND: 100acrs
+  - LAND: 100acrs
     CASH: 1000cr
 
   tasks:
