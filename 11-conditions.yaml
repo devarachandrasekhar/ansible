@@ -1,5 +1,5 @@
 - name: create user
-  hostname: mongodb
+  hosts: mongodb
 
   tasks:
   - name: check the roboshop user exit or not 
