@@ -2,6 +2,6 @@
   hosts: mongodb
 
   tasks:
-  - name: inventory varibles
+  - name: printing mongodb username password
     ansible.builtin.debug:
       msg: "mongodb username: {{USERNAME}} , password: {{PASSWORD}}"
