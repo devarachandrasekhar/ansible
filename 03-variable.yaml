@@ -1,6 +1,6 @@
 - name: Prcatice print something in yaml
   hosts: mongodb
-
+  # this play levell varibles
   vars:
     COURS: DEVOPS
     TRAINER: SHIVA
