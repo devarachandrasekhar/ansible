@@ -9,6 +9,8 @@
     vars:
     - LAND: 100acrs
       CASH: 100000cr
+    ansible.builtin.debug:
+      msg: "{{LAND}} , {{CASH}}"  
   - name: print varaibles
     ansible.builtin.debug:
       msg: "{{LAND}} , {{CASH}}"
