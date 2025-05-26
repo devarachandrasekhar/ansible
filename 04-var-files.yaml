@@ -5,7 +5,7 @@
   tasks:
   - name: vaibles files
     ansible.builtin.debug:
-      msg: "I am  {{NAME}} {{AGE}} ,{{VILLAGE}}""
+      msg: "I am  {{NAME}} {{AGE}} ,{{VILLAGE}}"
 
 
 
