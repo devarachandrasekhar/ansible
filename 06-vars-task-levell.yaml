@@ -7,7 +7,7 @@
   tasks:
   - name: over ride the paly level varibles
     vars:
-      LAND: 100acrs
+    - LAND: 100acrs
       CASH: 100000cr
   - name: print varaibles
     ansible.builtin.debug:
