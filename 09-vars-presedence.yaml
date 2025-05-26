@@ -2,7 +2,7 @@
   hosts: mongodb
 
   vars:
-    NAME: chandu-playlevell
+  # NAME: chandu-playlevell
   vars_files:
   - variables.yaml
   #vars_prompt:
