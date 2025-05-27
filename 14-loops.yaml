@@ -4,7 +4,7 @@
   tasks:
   - name: printing the loop values
     ansible.builtin.debug:
-      msg: "Hi I am {{item.name}} and age {{item.age}}"
+      msg: "Hi I am {{item.name}} and age {{item.age}}, {{item.goal}} , {{item.timelimit}}"
 
     loop:
     - { name: 'devara', age: 24 }
