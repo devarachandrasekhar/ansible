@@ -10,4 +10,4 @@
   tasks:
   - name: print the loop values
     ansible.builtin.debug:
-      msg: "{{loop}}"
+      msg: "skills: {{item}}"
