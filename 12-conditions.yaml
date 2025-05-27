@@ -5,7 +5,6 @@
     NAME: "devops"
 
   tasks:
-  - name: printing values  when condition matchedss
-    ansible.builtin.debug:
+  - name: printing values  when condition matched
       msg: "{{NAME}}"
     when: NAME == "devops"    
