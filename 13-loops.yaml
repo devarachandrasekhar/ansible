@@ -1,0 +1,13 @@
+- name: practice loops
+  hosts: localhost
+
+  loop:
+    - aws
+    - jenkins
+    - docker
+    - k8
+
+  tasks:
+  - name: print the loop values
+    ansible.builtin.debug:
+      msg: "{{loop}}"
