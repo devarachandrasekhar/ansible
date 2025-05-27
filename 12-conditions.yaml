@@ -6,5 +6,6 @@
 
   tasks:
   - name: printing values  when condition matched
+    ansible.builtin.debug:
       msg: "{{NAME}}"
     when: NAME == "devops"    

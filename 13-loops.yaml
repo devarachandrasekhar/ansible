@@ -5,7 +5,7 @@
   - name: print the loop values
     ansible.builtin.debug:
       msg: "skills: {{item}}"
-    loop:
+    loop:  # this is one type of loops
     - aws
     - jenkins
     - docker
